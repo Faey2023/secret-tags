@@ -58,7 +58,6 @@ const ProductDetail = async ({ params }: { params: { id: string } }) => {
   const { id } = params;
   console.log("Product ID:", id);
 
-  // ✅ Replace Prisma with dummy data
   const product = dummyProduct;
 
   if (!product) {
